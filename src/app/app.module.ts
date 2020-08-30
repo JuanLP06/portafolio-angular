@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 
 //Rutas
 import { AppRoutingModulo } from './app-routing.module';
+import { HttpClientModule } from '@angular/common/http';
 
 //Componentes
 import { AppComponent } from './app.component';
@@ -23,7 +24,8 @@ import { ItemComponent } from './pages/item/item.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModulo
+    AppRoutingModulo,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
