@@ -1,17 +1,17 @@
 <footer class="ae-container-fluid rk-footer ">
     <div class="ae-grid ae-grid--collapse">
         <div class="ae-grid__item item-lg-4 au-xs-ta-center au-lg-ta-left">
-            <ul class="rk-menu rk-footer-menu">
-                <li class="rk-menu__item"><a href="about.html" class="rk-menu__link">About</a>
+            <!-- <ul class="rk-menu rk-footer-menu">
+                <li class="rk-menu__item"><a routerLink="about" class="rk-menu__link">Acerca de</a>
                 </li>
                 <li class="rk-menu__item"><a href="documentation.html" class="rk-menu__link">Docs</a>
                 </li>
-                <li class="rk-menu__item"><a href="contact.html" class="rk-menu__link">Contact</a>
+                <li class="rk-menu__item"><a routerLink="about" class="rk-menu__link">Contactanos</a>
                 </li>
-            </ul>
+            </ul> -->
             <p class="rk-footer__text rk-footer__copy "> <span class="ae-u-bold">© </span><span
                     class="ae-u-bolder">{{anio}}
-                    {{infoPaginaService.info.titulo}} </span>All Right Reserved.</p>
+                    {{infoPaginaService.info.titulo}} </span>Todos los derechos reservados.</p>
         </div>
         <div class="ae-grid__item item-lg-4 au-xs-ta-center">
 
@@ -35,10 +35,15 @@
                     <use xlink:href="assets/img/symbols2.svg#icon-instagram"></use>
                 </svg>
             </a>
+            <div class="ae-container rk-topbar">
+                <h6 class="color-white">ENVIÓS A TODO EL PAÍS: <i class="fa fa-phone"></i> 7627 - 8034 / 7688 - 5656
+                </h6>
+            </div>
         </div>
         <div class="ae-grid__item item-lg-4 au-xs-ta-center au-lg-ta-right">
             <p class="rk-footer__text rk-footer__contact "> <span class="ae-u-bold">Email: </span><span
-                    class="ae-u-bolder"> <a href="mailTo:{{ infoPaginaService.info.email }}" class="rk-dark-color ">{{ infoPaginaService.info.email}}
+                    class="ae-u-bolder"> <a href="mailTo:{{ infoPaginaService.info.email }}"
+                        class="rk-dark-color ">{{ infoPaginaService.info.email}}
                     </a></span></p>
             <p class="rk-footer__text rk-footer__by">Theme by <a href="http://pixeden.com"
                     class="ae-u-bolder">Pixeden.</a></p>
